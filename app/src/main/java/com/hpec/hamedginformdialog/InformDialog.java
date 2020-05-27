@@ -36,7 +36,6 @@ public class InformDialog extends AlertDialog {
         super(activity);
         setView(activity);
         setListeners();
-        show();
         setDimensions(activity);
     }
 
@@ -45,7 +44,6 @@ public class InformDialog extends AlertDialog {
         setView(activity);
         setAnimation(animation);
         setListeners();
-        show();
         setDimensions(activity);
     }
 
