@@ -64,6 +64,7 @@ public class InformDialog extends AlertDialog {
     }
 
 
+
     private void setListeners() {
 
         positiveButton.setOnClickListener(new View.OnClickListener() {
