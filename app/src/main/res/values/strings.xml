@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HamedGInformDialog</string>
+    <string name="ok">خب</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+</resources>

@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="dialog_bottom_to_top">
+        <item name="android:windowEnterAnimation">@anim/slide_up_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_bottom_from_center</item>
+    </style>
+
+    <style name="dialog_top_to_bottom">
+        <item name="android:windowEnterAnimation">@anim/slide_bottom_from_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_up_from_center</item>
+    </style>
+
+    <style name="dialog_right_to_left">
+        <item name="android:windowEnterAnimation">@anim/slide_right_to_left_from_right</item>
+        <item name="android:windowExitAnimation">@anim/slide_right_to_left_from_center</item>
+    </style>
+
+    <style name="dialog_left_to_right">
+        <item name="android:windowEnterAnimation">@anim/slide_left_to_right_from_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_left_to_right_from_center</item>
+    </style>
+
+    <style name="dialog_fade">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+
+</resources>

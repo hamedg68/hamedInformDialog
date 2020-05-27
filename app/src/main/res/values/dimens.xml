@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_value">5dp</dimen>
+    <dimen name="padding_normal">10dp</dimen>
+    <integer name="dialog_animation">200</integer>
+    <dimen name="main_padding">32dp</dimen>
+    <dimen name="main_padding_bottom">80dp</dimen>
+</resources>
