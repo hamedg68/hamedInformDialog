@@ -18,7 +18,7 @@
         android:layout_marginTop="8dp"
         android:src="@drawable/error" />
 
-    <TextView
+    <com.hpec.hamedginformdialog.Views.TextViewB
         android:id="@+id/dearUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
         android:textSize="14sp"
         android:visibility="gone" />
 
-    <TextView
+    <com.hpec.hamedginformdialog.Views.TextViewB
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
+        <com.hpec.hamedginformdialog.Views.Button
             android:id="@+id/negativeBtn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
             android:textColor="@color/white"
             android:textSize="12sp" />
 
-        <Button
+        <com.hpec.hamedginformdialog.Views.Button
             android:id="@+id/positiveBtn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
